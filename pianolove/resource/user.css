@@ -1,0 +1,162 @@
+.sample-help {
+	color: rgb(14, 134, 179); letter-spacing: 1px; font-weight: bold;
+}
+.layout_all_buy .cont-l {
+	width: 50%; float: left;
+}
+.layout_all_buy .cont-r {
+	width: 50%; float: left;
+}
+@media all and (max-width:767px)
+{
+.layout_all_buy .cont-l {
+	width: 100%; float: none;
+}
+.layout_all_buy .cont-r {
+	width: 100%; float: none;
+}
+.layout_all_buy .buttn-info {
+	width: 50%; float: left;
+}
+.layout_all_buy .cont-table-cell {
+	padding: 0px 0px 15px;
+}
+}
+@media all and (min-width:768px)
+{
+.layout_all_buy .buttn-info {
+	width: 25%; float: left;
+}
+.layout_all_buy .cont-table-cell {
+	padding: 0px 0px 15px 15px;
+}
+}
+@media all and (min-width:992px)
+{
+.layout_all_buy .cont-table {
+	height: 400px;
+}
+}
+.layout_all_buy .buttn-info a {
+	background: rgb(221, 221, 221); padding: 10px; border-radius: 3px; text-align: center; margin-right: 1px; margin-bottom: 1px; display: block;
+}
+.buttn-buy {
+	color: rgb(255, 74, 50); font-weight: 500;
+}
+.sam-dblue {
+	background: rgb(67, 67, 79); padding: 20px; color: rgb(238, 238, 238) !important;
+}
+.sam-dblue p {
+	line-height: 24px !important; letter-spacing: -0.03em !important; font-family: "³ª´®°íµñ",NanumGothic,"µ¸¿ò",Dotum,"±¼¸²",Gulim,Helvetica,sans-serif !important; font-size: 14px !important;
+}
+.table-cellspacing {
+	width: 100%; border-collapse: separate; border-spacing: 1px;
+}
+.table-cellspacing tr th {
+	text-align: center;
+}
+.table-cellspacing tr th {
+	padding: 8px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.table-cellspacing tr td {
+	padding: 8px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.table-cellspacing tr td {
+	background: rgb(235, 235, 235);
+}
+.sam-dblue .table-cellspacing tr td {
+	color: rgb(51, 51, 51); letter-spacing: 1px;
+}
+.table-cellspacing {
+	font-size: 14px !important;
+}
+@media all and (max-width:767px)
+{
+.table-responsive > .table-cellspacing > tbody > tr > td {
+	white-space: nowrap;
+}
+.table-responsive > .table-cellspacing > tbody > tr > th {
+	white-space: nowrap;
+}
+}
+.space-h50 {
+	height: 50px;
+}
+#request li a {
+	line-height: 24px;
+}
+.request-wrapper > #request {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) currentColor; border-image: none;
+}
+#request {
+	background: rgba(0, 0, 0, 0.05); padding: 0px;
+}
+#request li a {
+	display: block;
+}
+#request li a {
+	padding: 12px 20px; border-bottom-color: rgba(0, 0, 0, 0.1); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.contact-group li {
+	padding: 12px 20px; border-bottom-color: rgba(0, 0, 0, 0.1); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#request li ul {
+	padding: 0px;
+}
+#request li > ul > li > a {
+	padding: 12px 20px 12px 40px;
+}
+#request li > ul > li > ul > li > a {
+	padding: 12px 20px 12px 60px;
+}
+#request li a p {
+	margin: 0px; float: left;
+}
+#request li a p.has-children {
+	width: 90%;
+}
+#request li a p.has-fa {
+	width: 10%; margin-top: 5px;
+}
+#request li a:hover {
+	background: rgba(0, 0, 0, 0.05); color: rgb(193, 112, 57);
+}
+#request li a:focus {
+	background: rgba(0, 0, 0, 0.05); color: rgb(193, 112, 57);
+}
+#request .active > a {
+	background: rgba(0, 0, 0, 0.05); color: rgb(193, 112, 57);
+}
+.bg-navy-designsol {
+	background: rgb(61, 67, 83);
+}
+.newbl-about h1 {
+	text-align: center; color: rgb(255, 255, 255);
+}
+table.newbl-table {
+	border-collapse: separate; border-spacing: 1px;
+}
+table.newbl-table tr td {
+	background: rgb(84, 88, 99); padding: 8px 10px; color: rgb(255, 255, 255); border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+table.newbl-table tr td.td-h {
+	background: rgb(84, 88, 99);
+}
+@media all and (max-width:767px)
+{
+.newbl-about {
+	padding: 20px;
+}
+.newbl-about h1 {
+	font-size: 25px; font-weight: bold;
+}
+.newbl-about .table-responsive {
+	border: 1px solid rgb(74, 79, 92); border-image: none;
+}
+}
+@media all and (min-width:768px)
+{
+.newbl-about {
+	padding: 50px;
+}
+}

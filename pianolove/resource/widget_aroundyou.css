@@ -1,0 +1,207 @@
+.grid {
+	margin: 0px -1%;
+}
+.grid-item {
+	background: rgb(255, 255, 255); border-radius: 3px; border: 1px solid rgb(237, 237, 237); border-image: none; margin-bottom: 20px; float: left;
+}
+.grid-item {
+	margin: 0px 1% 20px;
+}
+.grid-item a {
+	overflow: hidden; display: block;
+}
+@media all and (max-width:599px)
+{
+.grid-item {
+	width: 48%;
+}
+}
+@media all and (min-width:600px)
+{
+.grid-item {
+	width: 31.32%;
+}
+}
+@media all and (min-width:992px)
+{
+.grid-item {
+	width: 23%;
+}
+}
+.sol-list li {
+	padding: 6px 0px; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.sol-list .title-group {
+	float: left;
+}
+.sol-list .date {
+	float: left;
+}
+.sol-list .title-group .category {
+	float: left;
+}
+.sol-list .title-group .title {
+	float: left;
+}
+.sol-list .date {
+	text-align: right;
+}
+.sol-list .title {
+	overflow: hidden; margin-right: 2px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.category {
+	color: rgb(255, 255, 255); overflow: hidden; margin-right: 3px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.category span {
+	background: rgb(193, 166, 149); padding: 3px; border-radius: 2px; font-size: 11px;
+}
+.sol-list .title-group {
+	width: 80%;
+}
+.sol-list .date {
+	width: 20%;
+}
+.sol-list .category {
+	max-width: 13%;
+}
+.sol-list .title {
+	max-width: 72%;
+}
+@media all and (max-width:480px)
+{
+.sol-list .title-group {
+	width: 100%;
+}
+.sol-list .title {
+	max-width: 80%;
+}
+.sol-list .title-group .category {
+	display: none;
+}
+.sol-list .date {
+	display: none;
+}
+}
+@media all and (max-width:991px) and (min-width:785px)
+{
+.sol-list .title {
+	max-width: 70%;
+}
+}
+@media all and (max-width:991px)
+{
+.sol-list .date {
+	font-size: 13px;
+}
+}
+.sol-webzine .thumb > a {
+	border-radius: 3px 3px 0px 0px; width: 100%; display: block;
+}
+.sol-webzine .thumb > a > .thumb-img {
+	border-radius: 3px 3px 0px 0px; width: 100%; display: block;
+}
+.sol-webzine .thumb > a > .thumb-img {
+	background-position: center !important; min-height: 220px; background-repeat: no-repeat; background-size: cover;
+}
+.sol-webzine .title {
+	padding-bottom: 5px; position: relative;
+}
+.sol-webzine .title > a {
+	color: rgb(52, 52, 52); display: block;
+}
+.sol-webzine .replyNum {
+	top: -50px; right: 10px; font-size: 16px; position: absolute;
+}
+.sol-webzine .replyNum .fa {
+	float: left; display: block;
+}
+.sol-webzine .replyNum a {
+	float: left; display: block;
+}
+.sol-webzine .replyNum a {
+	padding-left: 2px; margin-top: -3px;
+}
+.sol-webzine .thumb {
+	background: rgb(237, 237, 237); overflow: hidden;
+}
+.sol-webzine .content {
+	background: rgb(237, 237, 237); padding: 10px;
+}
+.sol-webzine .content > p {
+	margin: 0px;
+}
+.sol-webzine .content > .text {
+	text-align: justify; color: rgb(112, 112, 112); line-height: 20px;
+}
+.sol-webzine .author-area {
+	color: rgb(161, 161, 161); font-size: 12px;
+}
+.sol-webzine .author-area > span {
+	float: left; display: block;
+}
+.sol-webzine .author {
+	color: rgb(149, 149, 149); font-size: 12px;
+}
+.sol-webzine .date {
+	color: rgb(149, 149, 149); font-size: 12px;
+}
+.sol-webzine .author {
+	padding-right: 3px;
+}
+.sol-webzine .no-wrapper {
+	width: 100%; height: 180px; text-align: center; display: table;
+}
+.sol-webzine .no-img {
+	vertical-align: middle; display: table-cell;
+}
+@media all and (max-width:480px)
+{
+.sol-webzine .thumb > a {
+	height: 140px;
+}
+}
+@media all and (min-width:481px)
+{
+.sol-webzine .thumb > a {
+	height: 180px;
+}
+}
+@media all and (min-width:1200px)
+{
+.sol-webzine .thumb > a {
+	height: 220px;
+}
+}
+@media all and (max-width:767px)
+{
+.sol-webzine .title > a {
+	height: 40px;
+}
+}
+@media all and (min-width:768px)
+{
+.sol-webzine .title > a {
+	height: 20px;
+}
+}
+@media all and (max-width:991px)
+{
+.sol-webzine .title > a {
+	font-size: 14px;
+}
+}
+@media all and (min-width:992px)
+{
+.sol-webzine .title > a {
+	font-size: 13px;
+}
+}
+.hover-img {
+	transition:0.7s cubic-bezier(0.2, 1, 0.22, 1); transform: translateZ(0px) scale(1); -webkit-transition: all .7s cubic-bezier(.2, 1, .22, 1); -webkit-transform: translateZ(0) scale(1);
+}
+.thumb a:hover .hover-img {
+	transform: scale(1.1); -webkit-transform: scale(1.1);
+}
+.replyNum {
+	color: rgb(255, 74, 50); font-style: normal; font-weight: bold;
+}

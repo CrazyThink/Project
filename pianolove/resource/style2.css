@@ -1,0 +1,191 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body {  font-family: 'Nanum Gothic' !important; }
+p { word-break: keep-all; }
+
+
+.mk-main-wrapper-holder > div { margin-top : 0 !important; }
+.kingkongboard-copyrights { display:none !important; }
+
+
+/************************************************* Main Menu *******************************************************/
+ul#menu-main-menu > li:after { content: "|"; }
+ul#menu-main-menu > li:last-child:after { content: ""; }
+.main-navigation-ul>li.no-mega-menu ul.sub-menu li.menu-item a.menu-item-link { padding: 10px 35px; }
+.main-navigation-ul li.no-mega-menu ul.sub-menu {
+    background-image: url("/wp-content/uploads/2016/02/menu_background.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+/********************************* remove_page_header ***************************************************************/
+header#mk-header > .mk-zindex-fix {display: none;}
+#mk-page-introduce { padding : 0; border-bottom : 1px solid #c0c0b9; margin-bottom:50px;}
+#mk-breadcrumbs .mk-breadcrumbs-inner { font-size:12px !important; padding-bottom:20px !important; padding-top:0px }
+.breadcrum_style { color : #1f4083; }
+.page-introduce-title { margin : 0; font-size:24px !important; font-weight:bold; color:#1f4083 !important; padding-top: 30px;}
+.mk-header-holder { -webkit-box-shadow: 0px 5px 5px #ededed;-moz-box-shadow: 0px 5px 5px #ededed; box-shadow: 0px 5px 5px #ededed; }
+
+
+
+/************************************************ sidebar **********************************************************/
+
+.sidebar-wrapper { padding-top :0 !important; }
+.sidebar-wrapper > section { padding-top:0 !important; }
+.sidebar-wrapper > section > div > ul > li { border: 1px solid #c0c0b9; border-top : none; }
+.sidebar-wrapper > section > div > ul > li > a:before { content:""; }
+.sidebar-wrapper > section > div > ul > li > a { padding : 13px 0 13px 35px !important; }
+.sidebar-wrapper > section > div > ul > li:first-child > a { color:#1f4083 !important; padding-top:45px !important; padding-bottom:45px !important;}
+.sidebar-wrapper > section > div > ul > li:first-child { background-image : url("/wp-content/uploads/2016/01/sidebar_bg.jpg"); background-repeat: no-repeat; background-size: cover; font-size:18px; border:none !important; border-bottom: 1px solid #c0c0b9 !important;}
+
+.widget_nav_menu ul.menu { border: none !important; border-bottom:1px solid #c0c0b9 !important;}
+.widget_nav_menu ul li.current_page_item a { background-color: #1f4083; color:white !important; }
+
+#mk-breadcrumbs .mk-breadcrumbs-inner { margin: 0 0 -10px 0; }
+#theme-page .theme-page-wrapper .theme-content { padding-left: 64px !important; }
+#mk-footer { padding: 0 !important; }
+
+
+
+/******************************************************* Home ******************************************************/
+
+.edge-title { margin-bottom:42px !important; }
+.edge-title, .edge-desc { text-align:right; }
+li.vc_tta-tab > a { height: 150px !important; }
+#mk-page-id-2 { display:none !important; }
+#kingkongboard-latest-wrapper #kingkongboard-latest-table th  { border-top : none !important; }
+
+ul.vc_tta-tabs-list { width: 50px; }
+.main_center_div { padding:0 !important; }
+.main_center_div > .vc_tta-container { margin-bottom:0 !important; }
+.main_center_div > div > div { height : 287px !important; }
+.vc_tta.vc_general .vc_tta-tab > a { padding: 55px 10px !important; }
+.vc_tta-color-white.vc_tta-style-modern.vc_tta-tabs .vc_tta-panels { background-color : white !important; }
+.vc_tta-color-white.vc_tta-style-modern .vc_tta-tab.vc_active > a  { background-color : #1f4083 !important; }
+
+.vc_tta-color-white.vc_tta-style-modern .vc_tta-tab > a { background-color : #a8a5a5 !important; border-color: transparent !important; color:white !important;}
+
+.vc_tta-color-white.vc_tta-style-modern .vc_tta-tab > a { font-weight : bold; }
+div#main_3_section > .vc_col-sm-4 { width: 30%; margin: 0 1.65%; max-height: 290px; min-height: 290px;}
+
+.main_section_title { margin-top: 34px; margin-bottom: 115px;}
+
+.main_section_1 { padding: 0 30px !important; }
+.main_section_1_button > button { font-weight: bold; background-color: #2c57aa !important; }
+.main_tab { overflow-y: hidden; }
+.vc_active > .vc_tta-panel-body { min-height:280px !important;}
+
+table#kingkongboard-latest-table { margin-bottom: 10px;}
+#kboard-default-list {margin-top:20px !important;}
+
+
+
+
+/*************************************************** Subtitle ******************************************************/
+.subtitle p{ font-size: 18px; font-weight: bold; }
+
+
+
+
+/************************************************  page-회사개요 ******************************************************/
+
+
+
+
+/************************************************  page-CEO 인사말 ***************************************************/
+.background_image { background-repeat: no-repeat; background-position-x: right;}
+
+#ceo {
+    background-image: url('/wp-content/uploads/2016/05/ceo.jpg');
+    background-position-y: top;
+ }
+
+/************************************************  page-연혁 ******************************************************/
+
+#history {
+    background-image: url('/wp-content/uploads/2016/02/history_bg.jpg');
+    background-position-y: bottom;
+}
+
+.vc_sep_border_width_3 { margin-bottom: 0px !important; }
+
+.history_table > div > table > tbody > tr > td:first-child { width: 100px; }
+.history_table > div > table > tbody > tr:first-child {border-top: 3px solid #2c57aa;}
+.history_table { width: 65%;}
+.history_table > div.table-style2 { border-bottom: 0px solid #dcdcdc; }
+#history > div > div:last-child > div { margin-bottom: 0px; }
+
+
+
+
+/******************************************************* 오시는 길 **************************************************/
+
+span.map_title { font-size: 18px; font-weight: bold; color: #1F4083; }
+p.map_address { margin-top: 50px; }
+.transportation { margin-top:50px; }
+
+.transportation > p.title { font-weight: bold; font-size: 18px; color: #1F4083; }
+.transportation > p.notice { font-size:12px; margin-left: 10px;}
+
+.transportation > table { margin-bottom:10px !important; border-top:2px solid #1F4083; }
+.transportation > table > tbody > tr > td { font-size:13px; text-align: left; border-bottom: 1px solid #c0c0b9; padding-left: 10px; padding-right: 0px;}
+.transportation > table > tbody > tr > td:first-child { font-weight: bold; font-size:14px; color: #1F4083; }
+.transportation > table > tbody > tr > td:first-child > span.time { font-size:12px; }
+
+
+
+
+/******************************************************************** 자회사 ****************************************/
+#kboard-default-document .kboard-detail, .kboard-prev-document, .kboard-next-document { display:none !important; }
+.company_title { font-size:16px; font-weight:bold;}
+p.company_title:before { content:"■ "; font-size:8px;vertical-align: middle;color:#1f4083; margin-bottom: 0px;}
+p.company_discription:before {content: "•";#1f4083;}
+.kboard-document-wrap > .kboard-title { display:none; }
+.company_table > tbody > tr > td { text-align: left; }
+table.company_table {border-top: 3px solid #1f4083; width:70%; margin-top: -20px;}
+table.company_table > tbody>tr > td:first-child { color: #1f4083; font-weight:bold; width:150px;}
+table.company_table > tbody>tr > td {border-bottom: 1px solid #c0c0b9;}
+table.company_table > tbody>tr:first-child > td:last-child {font-weight: bold;}
+
+/***************************************************************** 자회사 설립운영 ****************************************/
+.table_company{ border-top: 2px solid #1F4083;}
+.table_company tr > td:second-child {width: 150px;}
+.table_company tr > td:first-child {width: 70px; padding-top: 20px; }
+.table_company tr > td:first-child img {padding-top: 10px;}
+.table_company tr > td:last-child {text-align: left;}
+
+.exit_textbox {border: 2px solid #2c57aa; padding: 20px; height: 214px;}
+.exit_imagebox { margin-bottom: 0px !important; }
+.exit_textbox_2 {border: 2px solid #1f4083; padding: 20px; height: 214px;}
+
+
+/***************************************************************** 기술사업화 지원 ****************************************/
+
+
+.support_imagebox{ margin-bottom: 0px !important; }
+.support_textbox { border: 1px solid #dddddd; padding: 20px; }
+
+/*************************************************** FAQ ************************************************************/
+.mk-faq-toggle>span{ color: #5e5e5e !important; font-size: 16px !important; }
+.mk-icon-question::before { content: "\f002";  color: #2c57aa; font-size: 18px!important; }
+.filter-faq ul { display: none; }
+.filter-faq { margin-bottom: 0px; }
+
+
+
+@media handheld, only screen and (max-width: 767px) 
+{
+    /******************* common **********************/
+    #mk-sidebar { display : none; }
+    .background_image { background: none !important;}
+    .page-introduce-title { float:left; width:40%; }
+    #mk-breadcrumbs { float:right; width:50%; padding-top: 30px;}
+    #theme-page .theme-page-wrapper .theme-content { padding-left: 20px !important; }
+
+    /******************  main ************************/
+    div#main_3_section > .vc_col-sm-4 { width: 100%; }
+
+    /******************  page-연혁 ************************/
+    .history_table { width: 100%; margin-bottom:30px; }
+}
+

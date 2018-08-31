@@ -1,0 +1,192 @@
+body {
+	font-family: Tahoma,Geneva,sans-serif; font-size: 12px;
+}
+button {
+	font-family: Tahoma,Geneva,sans-serif; font-size: 12px;
+}
+input {
+	font-family: Tahoma,Geneva,sans-serif; font-size: 12px;
+}
+select {
+	font-family: Tahoma,Geneva,sans-serif; font-size: 12px;
+}
+table {
+	font-family: Tahoma,Geneva,sans-serif; font-size: 12px;
+}
+textarea {
+	font-family: Tahoma,Geneva,sans-serif; font-size: 12px;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+body {
+	position: relative; -ms-word-wrap: break-word;
+}
+a img {
+	border: 0px currentColor; border-image: none;
+}
+[hidden] {
+	display: none;
+}
+.xe_content img {
+	height: auto; max-width: 100%;
+}
+@media 
+{
+img {
+	max-width: none;
+}
+}
+.xe-clearfix::after {
+	display: table; content: " ";
+}
+.xe-clearfix::before {
+	display: table; content: " ";
+}
+.xe-clearfix::after {
+	clear: both;
+}
+.xe-clearfix {
+	-ms-zoom: 1;
+}
+.xe-widget-wrapper {
+	overflow: hidden;
+}
+#popup_menu_area {
+	background: rgb(255, 255, 255); margin: 10px 0px; padding: 10px; border-radius: 3px; border: 1px solid rgb(233, 233, 233); border-image: none; font-size: 12px; position: absolute; box-shadow: 0px 0px 6px #666;
+}
+#popup_menu_area ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#popup_menu_area li {
+	margin: 0px; padding: 0px; line-height: 1.25;
+}
+#popup_menu_area a {
+	padding: 1px 3px; border-radius: 2px; color: rgb(51, 51, 51); text-decoration: none; display: block;
+}
+#popup_menu_area a:active {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+#popup_menu_area a:focus {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+#popup_menu_area a:hover {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+.message {
+	margin: 1em 0px; padding: 0px 1em; border-radius: 4px; border: 1px solid rgb(221, 221, 221); border-image: none; line-height: 1.4; font-size: 13px; position: relative; text-shadow: 0px 1px 0px rgba(255,255,255,0.5); background-color: rgb(248, 248, 248);
+}
+body > .message {
+	margin: 1em;
+}
+.message p {
+	margin: 1em 0px !important;
+}
+.message.info {
+	border-color: rgb(188, 232, 241); color: rgb(58, 135, 173); background-color: rgb(217, 237, 247);
+}
+.message.error {
+	border-color: rgb(238, 211, 215); color: rgb(185, 74, 72); background-color: rgb(242, 222, 222);
+}
+.message.update {
+	border-color: rgb(214, 233, 198); color: rgb(70, 136, 71); background-color: rgb(223, 240, 216);
+}
+.wfsr {
+	background: url("../../common/img/msg.loading.gif") no-repeat center 15px rgb(51, 51, 51); font: 700 16px/60px "Helvetica Neue", Helvetica, Arial, µ¸¿ò, Dotum, sans-serif; margin: 0px; padding: 20px 0px 0px; left: 0px; top: 0px; text-align: center; right: 0px; color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: none; position: fixed; z-index: 100; font-size-adjust: none; font-stretch: normal; opacity: 0.8; box-shadow: 0px 0px 5px #000;
+}
+.btnArea {
+	margin: 10px 0px; padding: 0px; text-align: right; clear: both; -ms-zoom: 1;
+}
+.btnArea::after {
+	clear: both; display: block; content: "";
+}
+.btn {
+	border-width: 1px; border-style: solid; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgb(162, 162, 162); margin: 0px; padding: 0px 12px !important; border-radius: 2px; border-image: none; height: 24px !important; text-align: center; color: rgb(51, 51, 51); line-height: 24px !important; overflow: visible; font-family: inherit; font-size: 12px; text-decoration: none !important; vertical-align: top; display: inline-block; cursor: pointer; box-shadow: inset 0px 1px 0px rgba(255,255,255,0.2), 0px 1px 2px rgba(0,0,0,0.05); text-shadow: 0px 1px 1px rgba(255,255,255,0.75); background-repeat: repeat-x; background-color: rgb(245, 245, 245);
+}
+button.btn {
+	height: 26px !important;
+}
+input.btn {
+	height: 26px !important;
+}
+.btn:active {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+.btn:hover {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+[disabled].btn {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+.btn > a {
+	background: 0px 0px; margin: 0px -12px !important; padding: 0px 12px !important; border: 0px currentColor; border-image: none; width: auto; height: 24px; color: rgb(51, 51, 51); line-height: 24px; overflow: visible; font-family: inherit; font-size: 12px; text-decoration: none !important; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.btn > button {
+	background: 0px 0px; margin: 0px -12px !important; padding: 0px 12px !important; border: 0px currentColor; border-image: none; width: auto; height: 24px; color: rgb(51, 51, 51); line-height: 24px; overflow: visible; font-family: inherit; font-size: 12px; text-decoration: none !important; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.btn > input {
+	background: 0px 0px; margin: 0px -12px !important; padding: 0px 12px !important; border: 0px currentColor; border-image: none; width: auto; height: 24px; color: rgb(51, 51, 51); line-height: 24px; overflow: visible; font-family: inherit; font-size: 12px; text-decoration: none !important; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.btn > span {
+	background: 0px 0px; margin: 0px -12px !important; padding: 0px 12px !important; border: 0px currentColor; border-image: none; width: auto; height: 24px; color: rgb(51, 51, 51); line-height: 24px; overflow: visible; font-family: inherit; font-size: 12px; text-decoration: none !important; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.btn-group {
+	font-size: 0px; vertical-align: middle; display: inline-block; white-space: nowrap; position: relative;
+}
+:first-child.btn-group {
+	
+}
+.btn-group + .btn-group {
+	margin-left: 5px;
+}
+.btn-group > .btn {
+	border-radius: 0px; position: relative; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.btn-group > .btn + .btn {
+	margin-left: -1px;
+}
+.btn-group > :first-child.btn {
+	margin-left: 0px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-top-left-radius: 4px; -moz-border-radius-topleft: 4px;
+}
+.btn-group > :last-child.btn {
+	border-top-right-radius: 4px; border-bottom-right-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topright: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius-bottomright: 4px;
+}
+.btn-group > .btn.active {
+	z-index: 2;
+}
+.btn-group > .btn:active {
+	z-index: 2;
+}
+.btn-group > .btn:focus {
+	z-index: 2;
+}
+.btn-group > .btn:hover {
+	z-index: 2;
+}

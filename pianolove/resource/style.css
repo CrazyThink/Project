@@ -1,0 +1,48 @@
+.xe_content {
+	color: rgb(0, 0, 0); line-height: 1.5; font-family: sans-serif; font-size: 13px;
+}
+.xe_content blockquote.q1 {
+	margin: 0px 15px; padding: 10px;
+}
+.xe_content blockquote.q2 {
+	margin: 0px 15px; padding: 10px;
+}
+.xe_content blockquote.q3 {
+	margin: 0px 15px; padding: 10px;
+}
+.xe_content blockquote.q4 {
+	margin: 0px 15px; padding: 10px;
+}
+.xe_content blockquote.q5 {
+	margin: 0px 15px; padding: 10px;
+}
+.xe_content blockquote.q6 {
+	margin: 0px 15px; padding: 10px;
+}
+.xe_content blockquote.q7 {
+	margin: 0px 15px; padding: 10px;
+}
+.xe_content blockquote.q1 {
+	padding: 0px 10px; border-left-color: rgb(204, 204, 204); border-left-width: 2px; border-left-style: solid;
+}
+.xe_content blockquote.q2 {
+	background: url("./img/bg_qmark.gif") no-repeat left top; padding: 0px 10px;
+}
+.xe_content blockquote.q3 {
+	border: 1px solid rgb(217, 217, 217); border-image: none;
+}
+.xe_content blockquote.q4 {
+	background: rgb(251, 251, 251); border: 1px solid rgb(217, 217, 217); border-image: none;
+}
+.xe_content blockquote.q5 {
+	border: 2px solid rgb(112, 112, 112); border-image: none;
+}
+.xe_content blockquote.q6 {
+	border: 1px dashed rgb(112, 112, 112); border-image: none;
+}
+.xe_content blockquote.q7 {
+	background: rgb(251, 251, 251); border: 1px dashed rgb(112, 112, 112); border-image: none;
+}
+.xe_content p {
+	margin: 0px;
+}

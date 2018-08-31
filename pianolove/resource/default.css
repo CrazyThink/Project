@@ -1,0 +1,210 @@
+.sns_icon {
+	padding: 0px 0px 3px 28px;
+}
+.sns_icon.twitter {
+	background: url("../img/twitter.png") no-repeat;
+}
+.sns_icon.facebook {
+	background: url("../img/facebook.png") no-repeat;
+}
+.sns_icon.google {
+	background: url("../img/google.png") no-repeat;
+}
+.sns_icon.naver {
+	background: url("../img/naver.png") no-repeat;
+}
+.sns_icon.kakao {
+	background: url("../img/kakao.png") no-repeat;
+}
+.sns_login {
+	list-style: none; margin: 0px; padding: 0px; overflow: hidden;
+}
+.sns_login li {
+	margin: 5px; padding: 0px; text-align: center; display: inline-block;
+}
+#sns_twitter .loginBtn {
+	background: rgb(37, 150, 233); border-radius: 5px; width: 175px; text-align: left; color: white; display: inline-block;
+}
+#sns_twitter a.loginBtn {
+	text-decoration: none;
+}
+#sns_twitter .loginBtn:hover {
+	background: rgb(85, 172, 238);
+}
+#sns_twitter span.label {
+	font-weight: bold;
+}
+#sns_twitter span.icon {
+	background: url("../img/btn_twitter.png") no-repeat 10px 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_twitter span.buttonText {
+	padding-left: 10px; vertical-align: middle; display: inline-block;
+}
+#sns_facebook .loginBtn {
+	background: rgb(59, 89, 152); border-radius: 5px; width: 175px; text-align: left; color: white; display: inline-block;
+}
+#sns_facebook a.loginBtn {
+	text-decoration: none;
+}
+#sns_facebook .loginBtn:hover {
+	background: rgb(85, 119, 189);
+}
+#sns_facebook span.label {
+	font-weight: bold;
+}
+#sns_facebook span.icon {
+	background: url("../img/btn_facebook.png") no-repeat 10px 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_facebook span.buttonText {
+	padding-left: 10px; vertical-align: middle; display: inline-block;
+}
+#sns_google .loginBtn {
+	background: rgb(204, 55, 50); border-radius: 5px; width: 175px; text-align: left; color: white; display: inline-block;
+}
+#sns_google a.loginBtn {
+	text-decoration: none;
+}
+#sns_google .loginBtn:hover {
+	background: rgb(231, 75, 55);
+}
+#sns_google span.label {
+	font-weight: bold;
+}
+#sns_google span.icon {
+	background: url("../img/btn_google.png") no-repeat 10px 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_google span.buttonText {
+	padding-left: 10px; vertical-align: middle; display: inline-block;
+}
+#sns_naver .loginBtn {
+	background: rgb(30, 200, 0); border-radius: 5px; width: 175px; text-align: left; color: white; display: inline-block;
+}
+#sns_naver a.loginBtn {
+	text-decoration: none;
+}
+#sns_naver .loginBtn:hover {
+	background: rgb(37, 216, 5);
+}
+#sns_naver span.label {
+	font-weight: bold;
+}
+#sns_naver span.icon {
+	background: url("../img/btn_naver.png") no-repeat 10px 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_naver span.buttonText {
+	padding-left: 10px; vertical-align: middle; display: inline-block;
+}
+#sns_kakao .loginBtn {
+	background: rgb(255, 235, 0); border-radius: 5px; width: 175px; text-align: left; color: rgb(60, 30, 30); display: inline-block;
+}
+#sns_kakao a.loginBtn {
+	text-decoration: none;
+}
+#sns_kakao .loginBtn:hover {
+	background: rgb(255, 222, 0);
+}
+#sns_kakao span.label {
+	font-weight: bold;
+}
+#sns_kakao span.icon {
+	background: url("../img/btn_kakao.png") no-repeat 10px 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_kakao span.buttonText {
+	padding-left: 10px; vertical-align: middle; display: inline-block;
+}
+@media all and (max-width:720px)
+{
+#sns_twitter .loginBtn {
+	background: rgb(37, 150, 233); margin: 0px 5px; border-radius: 0px; width: 40px; text-align: left; color: white; display: inline-block;
+}
+#sns_twitter span.icon {
+	background: url("../img/btn_twitter.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_twitter span.buttonText {
+	display: none;
+}
+#sns_facebook .loginBtn {
+	background: rgb(59, 89, 152); margin: 0px 5px; border-radius: 0px; width: 40px; text-align: left; color: white; display: inline-block;
+}
+#sns_facebook span.icon {
+	background: url("../img/btn_facebook.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_facebook span.buttonText {
+	display: none;
+}
+#sns_google .loginBtn {
+	background: rgb(204, 55, 50); margin: 0px 5px; border-radius: 0px; width: 40px; text-align: left; color: white; display: inline-block;
+}
+#sns_google span.icon {
+	background: url("../img/btn_google.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_google span.buttonText {
+	display: none;
+}
+#sns_naver .loginBtn {
+	background: rgb(30, 200, 0); margin: 0px 5px; border-radius: 0px; width: 40px; text-align: left; color: white; display: inline-block;
+}
+#sns_naver span.icon {
+	background: url("../img/btn_naver.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_naver span.buttonText {
+	display: none;
+}
+#sns_kakao .loginBtn {
+	background: rgb(255, 235, 0); margin: 0px 5px; border-radius: 0px; width: 40px; text-align: left; color: rgb(60, 30, 30); display: inline-block;
+}
+#sns_kakao span.icon {
+	background: url("../img/btn_kakao.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_kakao span.buttonText {
+	display: none;
+}
+}
+@media all and (max-width:360px)
+{
+#sns_twitter .loginBtn {
+	background: rgb(37, 150, 233); margin: 0px; border-radius: 0px; width: 40px; text-align: left; color: white; display: inline-block;
+}
+#sns_twitter span.icon {
+	background: url("../img/btn_twitter.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_twitter span.buttonText {
+	display: none;
+}
+#sns_facebook .loginBtn {
+	background: rgb(59, 89, 152); margin: 0px; border-radius: 0px; width: 40px; text-align: left; color: white; display: inline-block;
+}
+#sns_facebook span.icon {
+	background: url("../img/btn_facebook.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_facebook span.buttonText {
+	display: none;
+}
+#sns_google .loginBtn {
+	background: rgb(204, 55, 50); margin: 0px; border-radius: 0px; width: 40px; text-align: left; color: white; display: inline-block;
+}
+#sns_google span.icon {
+	background: url("../img/btn_google.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_google span.buttonText {
+	display: none;
+}
+#sns_naver .loginBtn {
+	background: rgb(30, 200, 0); margin: 0px; border-radius: 0px; width: 40px; text-align: left; color: white; display: inline-block;
+}
+#sns_naver span.icon {
+	background: url("../img/btn_naver.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_naver span.buttonText {
+	display: none;
+}
+#sns_kakao .loginBtn {
+	background: rgb(255, 235, 0); margin: 0px; border-radius: 0px; width: 40px; text-align: left; color: rgb(60, 30, 30); display: inline-block;
+}
+#sns_kakao span.icon {
+	background: url("../img/btn_kakao.png") no-repeat 50% 50%; width: 40px; height: 40px; vertical-align: middle; display: inline-block;
+}
+#sns_kakao span.buttonText {
+	display: none;
+}
+}

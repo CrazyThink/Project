@@ -1,0 +1,975 @@
+.xm .pull-right {
+	float: right;
+}
+.xm .pull-left {
+	float: left;
+}
+.xm .dl-horizontal {
+	
+}
+.xm .dl-horizontal::before {
+	line-height: 0; display: table; content: "";
+}
+.xm .dl-horizontal::after {
+	line-height: 0; display: table; content: "";
+}
+.xm .dl-horizontal::after {
+	clear: both;
+}
+.xm .dl-horizontal dt {
+	width: 160px; text-align: right; overflow: hidden; clear: left; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.xm .dl-horizontal dd {
+	margin-left: 180px;
+}
+.xm form {
+	margin: 0px 0px 20px;
+}
+.xm fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+.xm label {
+	line-height: 20px; font-weight: normal;
+}
+.xm input {
+	line-height: 20px; font-weight: normal;
+}
+.xm button {
+	line-height: 20px; font-weight: normal;
+}
+.xm select {
+	line-height: 20px; font-weight: normal;
+}
+.xm textarea {
+	line-height: 20px; font-weight: normal;
+}
+.xm label {
+	margin-bottom: 5px; display: block;
+}
+.xm select {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm textarea {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='text'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='password'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='datetime'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='datetime-local'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='date'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='month'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='time'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='week'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='number'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='email'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='url'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='search'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='tel'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input[type='color'] {
+	padding: 4px 6px; border-radius: 2px; height: 20px; color: rgb(85, 85, 85); line-height: 20px; margin-bottom: 10px; vertical-align: middle; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.xm input {
+	width: 206px;
+}
+.xm textarea {
+	width: 206px;
+}
+.xm textarea {
+	height: auto;
+}
+.xm textarea {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='text'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='password'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='datetime'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='datetime-local'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='date'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='month'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='time'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='week'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='number'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='email'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='url'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='search'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='tel'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm input[type='color'] {
+	border: 1px solid rgb(204, 204, 204); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075); background-color: rgb(255, 255, 255); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.xm textarea:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='text']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='password']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='datetime']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='datetime-local']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='date']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='month']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='time']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='week']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='number']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='email']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='url']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='search']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='tel']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='color']:focus {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+.xm input[type='radio'] {
+	margin: 0px; line-height: normal;
+}
+.xm input[type='checkbox'] {
+	margin: 0px; line-height: normal;
+}
+.xm input[type='file'] {
+	width: auto;
+}
+.xm input[type='image'] {
+	width: auto;
+}
+.xm input[type='submit'] {
+	width: auto;
+}
+.xm input[type='reset'] {
+	width: auto;
+}
+.xm input[type='button'] {
+	width: auto;
+}
+.xm input[type='radio'] {
+	width: auto;
+}
+.xm input[type='checkbox'] {
+	width: auto;
+}
+.xm select {
+	height: 30px; line-height: 30px;
+}
+.xm input[type='file'] {
+	height: 30px; line-height: 30px;
+}
+.xm select {
+	border: 1px solid rgb(204, 204, 204); border-image: none; background-color: rgb(255, 255, 255);
+}
+.xm select[multiple] {
+	height: auto;
+}
+.xm select[size] {
+	height: auto;
+}
+.xm select:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+.xm input[type='file']:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+.xm input[type='radio']:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+.xm input[type='checkbox']:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+.xm input:-ms-input-placeholder {
+	color: rgb(153, 153, 153);
+}
+.xm textarea:-ms-input-placeholder {
+	color: rgb(153, 153, 153);
+}
+.xm input {
+	margin-left: 0px;
+}
+.xm textarea {
+	margin-left: 0px;
+}
+.xm input[disabled] {
+	cursor: not-allowed; background-color: rgb(238, 238, 238);
+}
+.xm select[disabled] {
+	cursor: not-allowed; background-color: rgb(238, 238, 238);
+}
+.xm textarea[disabled] {
+	cursor: not-allowed; background-color: rgb(238, 238, 238);
+}
+.xm input[readonly] {
+	cursor: not-allowed; background-color: rgb(238, 238, 238);
+}
+.xm select[readonly] {
+	cursor: not-allowed; background-color: rgb(238, 238, 238);
+}
+.xm textarea[readonly] {
+	cursor: not-allowed; background-color: rgb(238, 238, 238);
+}
+.xm input[type='radio'][disabled] {
+	background-color: transparent;
+}
+.xm input[type='checkbox'][disabled] {
+	background-color: transparent;
+}
+.xm input[type='radio'][readonly] {
+	background-color: transparent;
+}
+.xm input[type='checkbox'][readonly] {
+	background-color: transparent;
+}
+.xm input:invalid:focus {
+	border-color: rgb(238, 95, 91); color: rgb(185, 74, 72);
+}
+.xm textarea:invalid:focus {
+	border-color: rgb(238, 95, 91); color: rgb(185, 74, 72);
+}
+.xm select:invalid:focus {
+	border-color: rgb(238, 95, 91); color: rgb(185, 74, 72);
+}
+.xm input:invalid:focus {
+	border-color: rgb(233, 50, 45); box-shadow: 0px 0px 6px #f8b9b7; -webkit-box-shadow: 0 0 6px #f8b9b7; -moz-box-shadow: 0 0 6px #f8b9b7;
+}
+.xm textarea:invalid:focus {
+	border-color: rgb(233, 50, 45); box-shadow: 0px 0px 6px #f8b9b7; -webkit-box-shadow: 0 0 6px #f8b9b7; -moz-box-shadow: 0 0 6px #f8b9b7;
+}
+.xm select:invalid:focus {
+	border-color: rgb(233, 50, 45); box-shadow: 0px 0px 6px #f8b9b7; -webkit-box-shadow: 0 0 6px #f8b9b7; -moz-box-shadow: 0 0 6px #f8b9b7;
+}
+.xm .form-horizontal .control-group {
+	margin-bottom: 20px;
+}
+.xm .form-horizontal .control-group::before {
+	line-height: 0; display: table; content: "";
+}
+.xm .form-horizontal .control-group::after {
+	line-height: 0; display: table; content: "";
+}
+.xm .form-horizontal .control-group::after {
+	clear: both;
+}
+.xm .form-horizontal .controls {
+	margin-left: 180px;
+}
+.xm .form-horizontal :first-child.controls {
+	
+}
+.xm .form-horizontal .help-block {
+	margin-bottom: 0px;
+}
+.xm .form-horizontal input + .help-block {
+	margin-top: 10px;
+}
+.xm .form-horizontal select + .help-block {
+	margin-top: 10px;
+}
+.xm .form-horizontal textarea + .help-block {
+	margin-top: 10px;
+}
+.xm .form-horizontal .input-prepend + .help-block {
+	margin-top: 10px;
+}
+.xm .form-horizontal .input-append + .help-block {
+	margin-top: 10px;
+}
+.xm .help-block {
+	color: rgb(89, 89, 89);
+}
+.xm .help-inline {
+	color: rgb(89, 89, 89);
+}
+.xm .help-block {
+	margin-bottom: 10px; display: block;
+}
+.xm .help-inline {
+	margin: 0px; padding-left: 5px; vertical-align: middle; display: inline-block;
+}
+.xm .input-append {
+	font-size: 0px; margin-bottom: 10px; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.xm .input-prepend {
+	font-size: 0px; margin-bottom: 10px; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.xm .input-append input {
+	border-radius: 0px 4px 4px 0px; margin-bottom: 0px; vertical-align: top; position: relative; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-prepend input {
+	border-radius: 0px 4px 4px 0px; margin-bottom: 0px; vertical-align: top; position: relative; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-append select {
+	border-radius: 0px 4px 4px 0px; margin-bottom: 0px; vertical-align: top; position: relative; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-prepend select {
+	border-radius: 0px 4px 4px 0px; margin-bottom: 0px; vertical-align: top; position: relative; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-append input:focus {
+	z-index: 2;
+}
+.xm .input-prepend input:focus {
+	z-index: 2;
+}
+.xm .input-append select:focus {
+	z-index: 2;
+}
+.xm .input-prepend select:focus {
+	z-index: 2;
+}
+.xm .input-append .add-on {
+	padding: 4px 5px; border: 1px solid rgb(204, 204, 204); border-image: none; width: auto; height: 20px; text-align: center; line-height: 20px; font-weight: normal; display: inline-block; min-width: 16px; text-shadow: 0px 1px 0px #ffffff; background-color: rgb(238, 238, 238);
+}
+.xm .input-prepend .add-on {
+	padding: 4px 5px; border: 1px solid rgb(204, 204, 204); border-image: none; width: auto; height: 20px; text-align: center; line-height: 20px; font-weight: normal; display: inline-block; min-width: 16px; text-shadow: 0px 1px 0px #ffffff; background-color: rgb(238, 238, 238);
+}
+.xm .input-append .add-on {
+	border-radius: 0px; vertical-align: top; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.xm .input-prepend .add-on {
+	border-radius: 0px; vertical-align: top; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.xm .input-append .btn {
+	border-radius: 0px; vertical-align: top; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.xm .input-prepend .btn {
+	border-radius: 0px; vertical-align: top; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.xm .input-append .active {
+	border-color: rgb(70, 165, 70); background-color: rgb(169, 219, 169);
+}
+.xm .input-prepend .active {
+	border-color: rgb(70, 165, 70); background-color: rgb(169, 219, 169);
+}
+.xm .input-prepend .add-on {
+	margin-right: -1px;
+}
+.xm .input-prepend .btn {
+	margin-right: -1px;
+}
+.xm .input-prepend :first-child.add-on {
+	border-radius: 4px 0px 0px 4px; -webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px;
+}
+.xm .input-prepend :first-child.btn {
+	border-radius: 4px 0px 0px 4px; -webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px;
+}
+.xm .input-append input {
+	border-radius: 4px 0px 0px 4px; -webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px;
+}
+.xm .input-append select {
+	border-radius: 4px 0px 0px 4px; -webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px;
+}
+.xm .input-append input + .btn-group :last-child.btn {
+	border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-append select + .btn-group :last-child.btn {
+	border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-append .add-on {
+	margin-left: -1px;
+}
+.xm .input-append .btn {
+	margin-left: -1px;
+}
+.xm .input-append .btn-group {
+	margin-left: -1px;
+}
+.xm .input-append :last-child.add-on {
+	border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-append :last-child.btn {
+	border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-append :last-child.btn-group > .dropdown-toggle {
+	border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-prepend.input-append input {
+	border-radius: 0px; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.xm .input-prepend.input-append select {
+	border-radius: 0px; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.xm .input-prepend.input-append input + .btn-group .btn {
+	border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-prepend.input-append select + .btn-group .btn {
+	border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-prepend.input-append :first-child.add-on {
+	border-radius: 4px 0px 0px 4px; margin-right: -1px; -webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px;
+}
+.xm .input-prepend.input-append :first-child.btn {
+	border-radius: 4px 0px 0px 4px; margin-right: -1px; -webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px;
+}
+.xm .input-prepend.input-append :last-child.add-on {
+	border-radius: 0px 4px 4px 0px; margin-left: -1px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-prepend.input-append :last-child.btn {
+	border-radius: 0px 4px 4px 0px; margin-left: -1px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+}
+.xm .input-prepend.input-append :first-child.btn-group {
+	margin-left: 0px;
+}
+.xm .form-horizontal input {
+	margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+.xm .form-horizontal textarea {
+	margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+.xm .form-horizontal select {
+	margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+.xm .form-horizontal .help-inline {
+	margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+.xm .form-horizontal .input-prepend {
+	margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+.xm .form-horizontal .input-append {
+	margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+.xm .form-horizontal .hide {
+	display: none;
+}
+.xm .control-group {
+	margin-bottom: 10px;
+}
+.xm .nav {
+	list-style: none; margin: 0px 0px 20px; padding: 0px;
+}
+.xm .nav > li > a {
+	display: block;
+}
+.xm .nav > li > a:hover {
+	text-decoration: none; background-color: rgb(238, 238, 238);
+}
+.xm .nav > li > a:focus {
+	text-decoration: none; background-color: rgb(238, 238, 238);
+}
+.xm .nav-tabs {
+	
+}
+.xm .nav-tabs::before {
+	line-height: 0; display: table; content: "";
+}
+.xm .nav-tabs::after {
+	line-height: 0; display: table; content: "";
+}
+.xm .nav-tabs::after {
+	clear: both;
+}
+.xm .nav-tabs > li {
+	float: left;
+}
+.xm .nav-tabs > li > a {
+	line-height: 14px; padding-right: 12px; padding-left: 12px; margin-right: 2px;
+}
+.xm .nav-tabs {
+	border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xm .nav-tabs > li {
+	margin-bottom: -1px;
+}
+.xm .nav-tabs > li > a {
+	border-radius: 4px 4px 0px 0px; border: 1px solid transparent; border-image: none; line-height: 20px; padding-top: 8px; padding-bottom: 8px; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0;
+}
+.xm .nav-tabs > li > a:hover {
+	border-color: rgb(238, 238, 238) rgb(238, 238, 238) rgb(221, 221, 221);
+}
+.xm .nav-tabs > li > a:focus {
+	border-color: rgb(238, 238, 238) rgb(238, 238, 238) rgb(221, 221, 221);
+}
+.xm .nav-tabs > .active > a {
+	border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) transparent; border-image: none; color: rgb(85, 85, 85); cursor: default; background-color: rgb(255, 255, 255);
+}
+.xm .nav-tabs > .active > a:hover {
+	border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) transparent; border-image: none; color: rgb(85, 85, 85); cursor: default; background-color: rgb(255, 255, 255);
+}
+.xm .nav-tabs > .active > a:focus {
+	border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) transparent; border-image: none; color: rgb(85, 85, 85); cursor: default; background-color: rgb(255, 255, 255);
+}
+.xm .table {
+	width: 100%; margin-bottom: 20px; border-collapse: collapse; max-width: 100%; border-spacing: 0; background-color: transparent;
+}
+.xm .table th {
+	padding: 8px; text-align: left; line-height: 20px; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.xm .table td {
+	padding: 8px; text-align: left; line-height: 20px; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.xm .table th {
+	font-weight: bold;
+}
+.xm .table thead th {
+	vertical-align: bottom;
+}
+.xm .table caption + thead tr:first-child th {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.xm .table caption + thead tr:first-child td {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.xm .table colgroup + thead tr:first-child th {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.xm .table colgroup + thead tr:first-child td {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.xm .table thead:first-child tr:first-child th {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.xm .table thead:first-child tr:first-child td {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.xm .table tbody + tbody {
+	border-top-color: rgb(221, 221, 221); border-top-width: 2px; border-top-style: solid;
+}
+.xm .table-striped tbody > tr:nth-child(2n+1) > td {
+	background-color: rgb(249, 249, 249);
+}
+.xm .table-striped tbody > tr:nth-child(2n+1) > th {
+	background-color: rgb(249, 249, 249);
+}
+.xm .table-hover tbody tr:hover > td {
+	background-color: rgb(245, 245, 245);
+}
+.xm .table-hover tbody tr:hover > th {
+	background-color: rgb(245, 245, 245);
+}
+.xm .pagination {
+	margin: 20px 0px;
+}
+.xm .pagination ul {
+	border-radius: 4px; margin-bottom: 0px; margin-left: 0px; display: inline-block; box-shadow: 0px 1px 2px rgba(0,0,0,0.05); -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.xm .pagination ul > li {
+	display: inline;
+}
+.xm .pagination ul > li > a {
+	border-width: 1px 1px 1px 0px; border-style: solid; border-color: rgb(221, 221, 221); padding: 4px 12px; border-image: none; line-height: 20px; text-decoration: none; float: left; background-color: rgb(255, 255, 255);
+}
+.xm .pagination ul > li > span {
+	border-width: 1px 1px 1px 0px; border-style: solid; border-color: rgb(221, 221, 221); padding: 4px 12px; border-image: none; line-height: 20px; text-decoration: none; float: left; background-color: rgb(255, 255, 255);
+}
+.xm .pagination ul > li > a:hover {
+	background-color: rgb(245, 245, 245);
+}
+.xm .pagination ul > li > a:focus {
+	background-color: rgb(245, 245, 245);
+}
+.xm .pagination ul > .active > a {
+	background-color: rgb(245, 245, 245);
+}
+.xm .pagination ul > .active > span {
+	background-color: rgb(245, 245, 245);
+}
+.xm .pagination ul > .active > a {
+	color: rgb(153, 153, 153); cursor: default;
+}
+.xm .pagination ul > .active > span {
+	color: rgb(153, 153, 153); cursor: default;
+}
+.xm .pagination ul > .disabled > span {
+	color: rgb(153, 153, 153); cursor: default; background-color: transparent;
+}
+.xm .pagination ul > .disabled > a {
+	color: rgb(153, 153, 153); cursor: default; background-color: transparent;
+}
+.xm .pagination ul > .disabled > a:hover {
+	color: rgb(153, 153, 153); cursor: default; background-color: transparent;
+}
+.xm .pagination ul > .disabled > a:focus {
+	color: rgb(153, 153, 153); cursor: default; background-color: transparent;
+}
+.xm .pagination ul > li:first-child > a {
+	border-left-width: 1px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-top-left-radius: 4px; -moz-border-radius-topleft: 4px;
+}
+.xm .pagination ul > li:first-child > span {
+	border-left-width: 1px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-top-left-radius: 4px; -moz-border-radius-topleft: 4px;
+}
+.xm .pagination ul > li:last-child > a {
+	border-top-right-radius: 4px; border-bottom-right-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topright: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius-bottomright: 4px;
+}
+.xm .pagination ul > li:last-child > span {
+	border-top-right-radius: 4px; border-bottom-right-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topright: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius-bottomright: 4px;
+}
+.xm .pagination-centered {
+	text-align: center;
+}
+.xm .btn {
+	border-width: 1px; border-style: solid; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgb(179, 179, 179); padding: 4px 12px; border-radius: 4px; border-image: none; height: auto; text-align: center; color: rgb(51, 51, 51); line-height: 20px; font-family: inherit; font-size: 12px; margin-bottom: 0px; vertical-align: middle; display: inline-block; cursor: pointer; box-shadow: inset 0px 1px 0px rgba(255,255,255,0.2), 0px 1px 2px rgba(0,0,0,0.05); text-shadow: 0px 1px 1px rgba(255,255,255,0.75); background-image: linear-gradient(rgb(255, 255, 255), rgb(230, 230, 230)); background-repeat: repeat-x; background-color: rgb(245, 245, 245); -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.xm .btn:hover {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+.xm .btn:focus {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+.xm .btn:active {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+.xm .btn.active {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+.xm .btn.disabled {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+.xm [disabled].btn {
+	color: rgb(51, 51, 51); background-color: rgb(230, 230, 230);
+}
+.xm .btn:active {
+	
+}
+.xm .btn.active {
+	
+}
+.xm :first-child.btn {
+	
+}
+.xm .btn:hover {
+	background-position: 0px -15px; transition:background-position 0.1s linear; color: rgb(51, 51, 51); text-decoration: none; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear;
+}
+.xm .btn:focus {
+	background-position: 0px -15px; transition:background-position 0.1s linear; color: rgb(51, 51, 51); text-decoration: none; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear;
+}
+.xm .btn:focus {
+	outline: rgb(51, 51, 51) dotted thin; outline-offset: -2px;
+}
+.xm .btn.active {
+	outline: 0px; box-shadow: inset 0px 2px 4px rgba(0,0,0,0.15), 0px 1px 2px rgba(0,0,0,0.05); background-image: none; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.xm .btn:active {
+	outline: 0px; box-shadow: inset 0px 2px 4px rgba(0,0,0,0.15), 0px 1px 2px rgba(0,0,0,0.05); background-image: none; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.xm .btn.disabled {
+	cursor: default; opacity: 0.65; box-shadow: none; background-image: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.xm [disabled].btn {
+	cursor: default; opacity: 0.65; box-shadow: none; background-image: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.xm .btn-inverse.active {
+	color: rgba(255, 255, 255, 0.75);
+}
+.xm .btn-inverse {
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: rgb(255, 255, 255) !important; text-shadow: 0px -1px 0px rgba(0,0,0,0.25); background-image: linear-gradient(rgb(68, 68, 68), rgb(34, 34, 34)); background-repeat: repeat-x; background-color: rgb(54, 54, 54);
+}
+.xm .btn-inverse:hover {
+	color: rgb(255, 255, 255); background-color: rgb(34, 34, 34);
+}
+.xm .btn-inverse:focus {
+	color: rgb(255, 255, 255); background-color: rgb(34, 34, 34);
+}
+.xm .btn-inverse:active {
+	color: rgb(255, 255, 255); background-color: rgb(34, 34, 34);
+}
+.xm .btn-inverse.active {
+	color: rgb(255, 255, 255); background-color: rgb(34, 34, 34);
+}
+.xm .btn-inverse.disabled {
+	color: rgb(255, 255, 255); background-color: rgb(34, 34, 34);
+}
+.xm [disabled].btn-inverse {
+	color: rgb(255, 255, 255); background-color: rgb(34, 34, 34);
+}
+.xm .btn-inverse:active {
+	
+}
+.xm .btn-inverse.active {
+	
+}
+.xm button.btn {
+	
+}
+.xm input[type='submit'].btn {
+	
+}
+.xm .btn-group {
+	font-size: 0px; vertical-align: middle; display: inline-block; white-space: nowrap; position: relative;
+}
+.xm :first-child.btn-group {
+	
+}
+.xm .btn-group + .btn-group {
+	margin-left: 5px;
+}
+.xm .btn-group > .btn {
+	border-radius: 0px; position: relative; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.xm .btn-group > .btn + .btn {
+	margin-left: -1px;
+}
+.xm .btn-group > :first-child.btn {
+	margin-left: 0px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-top-left-radius: 4px; -moz-border-radius-topleft: 4px;
+}
+.xm .btn-group > :last-child.btn {
+	border-top-right-radius: 4px; border-bottom-right-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topright: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius-bottomright: 4px;
+}
+.xm .btn-group > .btn:hover {
+	z-index: 2;
+}
+.xm .btn-group > .btn:focus {
+	z-index: 2;
+}
+.xm .btn-group > .btn:active {
+	z-index: 2;
+}
+.xm .btn-group > .btn.active {
+	z-index: 2;
+}
+.xm {
+	font-size: 13px;
+}
+.xm input {
+	font-size: 13px;
+}
+.xm textarea {
+	font-size: 13px;
+}
+.xm select {
+	font-size: 13px;
+}
+.xm button {
+	font-size: 13px;
+}
+.xm table {
+	font-size: 13px;
+}
+.xm em {
+	color: rgb(255, 0, 0); font-style: normal;
+}
+.xm .nav a {
+	text-decoration: none;
+}
+.xm .btn {
+	text-decoration: none;
+}
+.xm .dl-horizontal > dd {
+	margin-bottom: 10px;
+}
+.xm .table {
+	border-top-color: rgb(221, 221, 221); border-bottom-color: rgb(221, 221, 221); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.xm .table > caption {
+	text-align: left; font-weight: bold;
+}
+.xm .table > caption > .pull-right {
+	top: -8px; position: relative;
+}
+.xm .signin {
+	margin: 30px auto; border-radius: 6px; border: 1px solid rgb(153, 153, 153); border-image: none; width: 400px; box-sizing: border-box; box-shadow: 0px 3px 7px #ccc; background-color: rgb(255, 255, 255);
+}
+.xm .signin > .login-header {
+	padding: 9px 15px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xm .signin > .login-header > h1 {
+	margin: 0px; color: rgb(102, 102, 102); line-height: 1.4; font-size: 16px; font-weight: 600;
+}
+.xm .signin > .login-header > h1 > i {
+	margin: 2px 0px 0px; opacity: 0.5;
+}
+.xm .signin > .login-body {
+	padding: 15px; max-height: 400px;
+}
+.xm .signin > .login-body > *:first-child {
+	margin-top: 0px;
+}
+.xm .signin > .login-footer {
+	padding: 14px 15px 15px; border-radius: 0px 0px 6px 6px; text-align: right; color: rgb(204, 204, 204); margin-bottom: 0px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; box-shadow: inset 0px 1px 0px #ffffff; background-color: rgb(245, 245, 245); -webkit-border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; -webkit-box-shadow: inset 0 1px 0 #ffffff; -moz-box-shadow: inset 0 1px 0 #ffffff;
+}
+.xm .signin > .login-footer::before {
+	line-height: 0; clear: both; display: table; content: "";
+}
+.xm .signin > .login-footer::after {
+	line-height: 0; clear: both; display: table; content: "";
+}
+.xm .signin > .login-footer > a {
+	text-decoration: none;
+}
+.xm .signin > .login-footer > a:hover {
+	text-decoration: underline;
+}
+.xm .signin > .login-footer > a:active {
+	text-decoration: underline;
+}
+.xm .signin > .login-footer > a:focus {
+	text-decoration: underline;
+}
+.xm .signin .control-group {
+	margin: 0px; padding: 0px 14px 0px 0px; clear: both; position: relative;
+}
+.xm .signin .control-group::before {
+	clear: both; display: block; content: "";
+}
+.xm .signin form {
+	margin: 0px;
+}
+.xm .signin fieldset {
+	margin: 0px;
+}
+.xm .signin label {
+	display: inline-block; cursor: pointer;
+}
+.xm .signin input[type='text'] {
+	width: 100%;
+}
+.xm .signin input[type='id'] {
+	width: 100%;
+}
+.xm .signin input[type='password'] {
+	width: 100%;
+}
+.xm .signin input[type='checkbox'] {
+	margin: 0px;
+}
+.xm .signin .btn {
+	padding: 3px 9px; border-radius: 2px; line-height: 18px; overflow: visible; font-size: 14px;
+}
+.xm .signin .submit {
+	top: 0px; right: 0px; position: absolute;
+}
+.xm .signin #warning {
+	margin-right: -14px;
+}
+.xm .signin #warning > p {
+	margin: 10px 0px;
+}
+.xm .agreement {
+	background: rgb(255, 255, 255); margin: 15px; padding: 15px; border-radius: 2px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+.xm .agreement > .text {
+	overflow: auto; padding-right: 10px; max-height: 200px;
+}
+.xm .agreement > .confirm {
+	margin: 10px 0px 0px; padding: 10px 0px 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted;
+}
+@media all and (max-width:480px)
+{
+.xm .signin {
+	margin: 0px; width: 100%;
+}
+}
+@media all and (min-width:768px)
+{
+.xm .dl-horizontal > dt {
+	margin-bottom: 10px;
+}
+}
+.xm h1 {
+	text-align: center; font-size: 18px; margin-bottom: 15px;
+}
+.xm .form-horizontal .control-label {
+	width: 160px; text-align: left !important; padding-top: 5px; padding-left: 15px; font-weight: 500; float: left;
+}
+.xm form#fo_insert_member {
+	background: rgb(238, 238, 238); padding: 15px 0px; border-radius: 2px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+.xm .accept-agree {
+	color: rgb(242, 114, 66); font-size: 14px; font-weight: 500;
+}
+.xm .agreement .text p {
+	line-height: 22px;
+}
+.xm .agreement .text span {
+	line-height: 22px;
+}
+.buttn {
+	border-radius: 2px; border: 1px solid transparent; border-image: none; text-align: center; line-height: 1.4285; font-size: 14px; font-weight: 500; margin-right: 2px; vertical-align: middle; display: inline-block; white-space: nowrap; cursor: pointer; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none; user-select: none;
+}
+.xm .sinup-y {
+	padding: 6px 20px; margin-bottom: 0px;
+}
+.xm .sinup-n {
+	padding: 6px 20px; margin-bottom: 0px;
+}
+.xm .sinup-y {
+	background: rgb(242, 114, 66); color: rgb(255, 255, 255);
+}
+.xm .sinup-n {
+	background: rgb(221, 221, 221); color: rgb(51, 51, 51); margin-right: 15px;
+}
+@media all and (max-width:480px)
+{
+.xm .form-horizontal .control-group {
+	padding: 0px 15px;
+}
+.xm .form-horizontal .control-label {
+	padding-left: 0px; float: none;
+}
+.xm .form-horizontal .controls {
+	margin-left: 0px;
+}
+.xm input {
+	width: 95%;
+}
+.xm textarea {
+	width: 100%;
+}
+}
