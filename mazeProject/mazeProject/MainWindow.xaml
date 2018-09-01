@@ -1,0 +1,6 @@
+﻿<Window x:Class="mazeProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="91" Width="184">
+    <Button Name="btnOpenFile" Click="btnOpenFile_Click">로드할 파일을 선택하세요</Button>
+</Window>
